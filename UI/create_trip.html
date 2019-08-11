@@ -14,9 +14,9 @@
             <div class="title2">
                 <h2>Create Trip</h2>
             </div>
-            <form class="" action="index.html" method="post">
+            <form class="" method="post">
                 <label for="From">From</label>
-                <select  class="" name="" required >
+                <select  class="" name="" required id="From">
                     <option value=""></option>
                     <option value="khenchela">khenchela</option>
                     <option value="constantine">constantine</option>
@@ -24,14 +24,16 @@
                     <option value="annaba">annaba</option>
                     <option value="oran">oran</option>
                 </select>
+                <label hidden class="error" id="error"></label>
                 <label for="To">To</label>
-                <select  class="" name="" required>
+                <select  class="" name="" required id="To">
                     <option value=""></option>
                     <option value="khenchela">khenchela</option>
                     <option value="constantine">constantine</option>
                     <option value="alger">alger</option>
                     <option value="annaba">annaba</option>
                     <option value="oran">oran</option>
+
                 </select>
                 <label for="Date">Date</label>
                 <input type="date" name="" value=""required>
@@ -41,10 +43,10 @@
                 <input type="number" name="" value="" min="5" max="100" required>
                 <label for="id bus">id bus</label>
                 <input type="number" name="" value="" min="0"required>
-                <input type="submit" name="" value="Create Trip">
+                <input type="submit" name="" value="Create Trip" id="Create_trip">
             </form>
         </div>
-        <script src="scripts/app.js" charset="utf-8"></script>
+        <script src="scripts/ct.js" charset="utf-8"></script>
     </body>
 
 </html>
