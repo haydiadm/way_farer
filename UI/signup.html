@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <title></title>
     </head>
-    <body>
+    <body class="auth">
 
         <div class="title">
             <h1>Way Farer</h1>
@@ -19,15 +19,17 @@
             <div class="title2">
                     <h2>Sign Up</h2>
             </div>
+
             <form class="" action="#" method="post">
                 <label for="Name">Name</label>
-                <input type="text" name="Name" value="">
+                <input type="text" name="Name" value="" required>
                 <label for="Email">Email</label>
-                <input type="text" name="Email" value="">
+                <input type="email" name="Email" value=""required>
                 <label for="Password">Password</label>
-                <input type="password" name="Password" value="" id="pw">
+                <label hidden class="error" id="error"></label>
+                <input type="password" name="Password" value="" id="pw"required>
                 <label for="">Confirm Password</label>
-                <input type="password" name="Confirm_Password" value="" id="cpw">
+                <input type="password" name="Confirm_Password" value="" id="cpw"required>
                 <input type="submit" name="Sign_up" value="Sign up" id="sb">
             </form>
         </div>

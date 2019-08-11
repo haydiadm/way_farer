@@ -22,7 +22,7 @@
     border-radius: 10px;
 
 }
-.Sign_upbox input[type="text"],input[type="password"]{
+.Sign_upbox input[type="text"],input[type="password"] ,input[type="email"]{
     width: 90%;
     margin: 7px auto;
     border-radius: 10px;
@@ -43,7 +43,45 @@
     border-radius: 10px;
     display: block;
 }
-body{
+.auth{
     background-image: url("../images/busS.jpg");
+    background-size: cover;
+}
+.error{
+    color: red;
+}
+.Create_trip{
+    margin: auto;
+    width: 60%;
+    background-color: #557DC1;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.Create_trip input[type="text"],input[type="date"] ,input[type="time"], input[type="number"],select{
+    width: 90%;
+    margin: 7px auto;
+    border-radius: 10px;
+    display: block;
+    height: 20px;
+}
+
+
+.Create_trip label{
+    width:90%;
+    margin: auto;
+    border-radius: 10px;
+    display: block;
+}
+.Create_trip input[type="submit"]{
+    width: 30%;
+    margin: 7px auto;
+    border-radius: 10px;
+    display: block;
+    height: 30px;
+    background-color: #F4BD6B;
+}
+.adminbg{
+    background-image: url("../images/admin.jpg");
     background-size: cover;
 }
