@@ -92,9 +92,9 @@ margin: auto;
 border-radius: 10px;
 }
 table, th , td{
-    border: 1px solid black;
+    border: 1px solid grey;
 background-color:#557DC1;
-
+text-align: center;
 }
 .actions{
     margin: auto 5%;
@@ -130,4 +130,22 @@ h3{
 }
 .val{
     width: 50%;
+}
+.idtrip{
+    text-align: center;
+    color: #752222;
+
+    width: 30%;
+    margin:inherit;
+
+}
+.bookings{
+     background-image: url("../images/bbb.jpg");
+     background-size: cover;
+}
+.act{
+    width: 40%;
+    margin: auto;
+    background-color: #9482B0;
+    border-radius: 10px;
 }
