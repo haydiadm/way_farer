@@ -109,3 +109,25 @@ background-color:#557DC1;
     background-image: url("../images/admin.jpg");
     background-size: cover;
 }
+
+.trip_info {
+    width: 50%;
+    margin: auto;
+    background-color:#557DC1;
+    border-radius: 10px;
+    padding: 10px;
+}
+.spetrip{
+    background-image: url("../images/bb.jpg");
+    background-size: cover;
+}
+h3{
+    width: 100%;
+}
+.prop{
+    color: #705E55;
+    width:50%;
+}
+.val{
+    width: 50%;
+}
